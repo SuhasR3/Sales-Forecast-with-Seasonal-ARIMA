@@ -40,7 +40,7 @@ sales-forecasting-arima/
 ├── Sales-Forecast-with-Seasonal-ARIMA     # Main Python script file
 ├── datasets/
 │   └── monthly-sales-data.csv             # Input dataset
-└── output/                                # Folder for output plots (e.g., forecast graphs)
+├── output/                                # Folder for output plots (e.g., forecast graphs)
 │   ├── arima_output                       # Input dataset
 │   └── Screenshots                        # Data exploration Results
 ├── README.md                              # Project overview
