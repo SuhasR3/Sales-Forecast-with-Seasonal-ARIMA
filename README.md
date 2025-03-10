@@ -37,13 +37,16 @@ This project demonstrates the application of the **ARIMA (AutoRegressive Integra
 ## Project Structure
 ```
 sales-forecasting-arima/
-├── Datasets/
-│   └── monthly-sales-data.csv    # Input dataset
-├── README.md                    # Project overview
-├── License.md                   # MIT License
-├── <script_name>.py             # Main Python script (if applicable)
-└── output images/               # Folder for output plots (e.g., forecast graphs)
-    └── monthly-sales-data.csv    # Input dataset
+├── Sales-Forecast-with-Seasonal-ARIMA     # Main Python script file
+├── datasets/
+│   └── monthly-sales-data.csv             # Input dataset
+└── output/                                # Folder for output plots (e.g., forecast graphs)
+│   ├── arima_output                       # Input dataset
+│   └── Screenshots                        # Data exploration Results
+├── README.md                              # Project overview
+├── License.md                             # MIT License
+└── .ipynb checkpoints/                    # Folder for ipynb checkpoints
+
 ```
 
 ---
