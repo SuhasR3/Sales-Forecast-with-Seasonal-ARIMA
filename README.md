@@ -1,7 +1,5 @@
 # Sales Forecasting with Seasonal ARIMA
 
-![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/arima_output.png)
-
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
 
@@ -75,7 +73,14 @@ pip install numpy pandas matplotlib statsmodels
 5. **Explore the Code**: Follow the notebook for a detailed walkthrough of data preparation, model building, and forecasting.
 
 ## Results
-The ARIMA model successfully forecasted sales values with reasonable accuracy, as validated by RMSE and visual comparison of predicted vs. actual data.
+![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/arima_output.png)
+Based on the SARIMA model, we have generated a sales forecast for the next two years. We can see that the model understands the trends and patterns and is successful at predicting the expected sales.
+
+#### ARIMA(1,1,1) Model:
+**Coefficients**: ar.L1 = 0.4545, ma.L1 = -0.9666 (both significant, p<0.001).
+**Fit Metrics**: AIC = 1911.627, BIC = 1919.560.
+**Diagnostics**: Random residuals (Ljung-Box p=0.34), normal distribution (Jarque-Bera p=0.27)
+In-sample forecasts aligned reasonably with actual sales.
 
 
 ## Contributing
