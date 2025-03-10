@@ -38,7 +38,8 @@ This project demonstrates the application of the **ARIMA (AutoRegressive Integra
 ```
 sales-forecasting-arima/
 ├── Sales-Forecast-with-Seasonal-ARIMA     # Main Python script file
-├── datasets/
+├── CNN on Time Series Data                # Main Python script file
+├── datasets/                              # Folder for dataset
 │   └── monthly-sales-data.csv             # Input dataset
 ├── output/                                # Folder for output plots (e.g., forecast graphs)
 │   ├── arima_output                       # Input dataset
