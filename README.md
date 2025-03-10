@@ -81,6 +81,7 @@ pip install numpy pandas matplotlib statsmodels
 ## Results
 ![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/arima_output.png)
 Based on the SARIMA model, we have generated a sales forecast for the next two years. We can see that the model understands the trends and patterns and is successful at predicting the expected sales.
+The CNN
 
 #### ARIMA(1,1,1) Model:
 **Coefficients**: ar.L1 = 0.4545, ma.L1 = -0.9666 (both significant, p<0.001).
