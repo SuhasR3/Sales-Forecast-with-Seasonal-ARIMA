@@ -6,7 +6,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
 
 ## Overview
-This project demonstrates the application of the **ARIMA (AutoRegressive Integrated Moving Average), Seasonal ARIMA** models to forecast sales trends using time series data and is built in Python.
+This project demonstrates the application of the **ARIMA (AutoRegressive Integrated Moving Average), Seasonal ARIMA** models to forecast sales trends using time series data and is built in Python. The results were compared against a Convolutional Neural Network.
 
 ## Features
 - **End-to-End Pipeline**: From data import to future predictions.
@@ -81,7 +81,7 @@ pip install numpy pandas matplotlib statsmodels
 ## Results
 ![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/arima_output.png)
 Based on the SARIMA model, we have generated a sales forecast for the next two years. We can see that the model understands the trends and patterns and is successful at predicting the expected sales.
-The CNN
+The Convolutional Neural Network achieved an accuracy of 94%
 
 #### ARIMA(1,1,1) Model:
 **Coefficients**: ar.L1 = 0.4545, ma.L1 = -0.9666 (both significant, p<0.001).
