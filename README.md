@@ -1,6 +1,6 @@
 # Sales Forecasting with Seasonal ARIMA
 
-![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/Seasonal-ARIMA-banner.webp)
+![](https://github.com/SuhasR3/Sales-Forecast-using-ARIMA-Model/blob/main/outputs/sarima_banner.webp)
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
